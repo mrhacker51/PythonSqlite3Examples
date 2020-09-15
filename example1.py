@@ -20,7 +20,7 @@ def sqlconnectionmy(dbnames):
 
 try:
 	users = str(input("Create Database Name : "))
-	sqlconnectionmy(users)
+	sqlconnectionmy(users + ".db")
 
 except Exception as e:
 	print(e)
